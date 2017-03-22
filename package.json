@@ -1,0 +1,17 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "Simple Hello World demo app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "start": "node ./app/hello_world.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.79.0"
+  }
+}
